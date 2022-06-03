@@ -52,7 +52,7 @@ class ApiResource {
       //     "$2a$10$5wQ.RXhOZd7NWQ54Z5q/DuOhD9MfKFbsmX/t5Eo7bO0qPoWCShOdK";
       if (
         window.location.hostname === "localhost" ||
-        window.location.hostname === "ttos-3-6.vercel.sg"
+        window.location.hostname === "ttos-3-6.vercel.app"
       ) {
         const API_key = process.env.NEXT_PUBLIC_STAGING4_API_KEY;
         const secret_key = process.env.NEXT_PUBLIC_STAGING4_SECRET_KEY;
