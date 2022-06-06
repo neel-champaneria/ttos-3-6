@@ -686,8 +686,10 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 //
-input {
-  -webkit-appearance: none;
+input[type="number"] {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-appearance: textfield;
 }
 //
 .p-block {
